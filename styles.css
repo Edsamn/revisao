@@ -1,0 +1,95 @@
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    width: 20vw;
+    background-color: #e67085;
+    position: absolute;
+}
+
+.headerNav {
+    background-color: #c8efad;
+    height: 10vh;
+    width: 80vw;
+    position: absolute;
+    right: 30px;
+}
+
+main {
+    height: 60vh;
+    width: 94vw;
+    background-color: #c9ebff;
+    position: absolute;
+    top: 80px;
+}
+
+.sectionMain1 {
+    height: 30vh;
+    width: 30vw;
+    background-color: #03a8ff;
+    position: absolute;
+    left: 150px;
+}
+
+.sectionMain2 {
+    height: 30vh;
+    width: 30vw;
+    background-color: #03a8ff;
+    position: absolute;
+    right: 150px;
+}
+
+.sectionMain3 {
+    height: 15vh;
+    width: 15vw;
+    background-color: #03a8ff;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+.sectionMain4 {
+    height: 15vh;
+    width: 15vw;
+    background-color: #03a8ff;
+    position: absolute;
+    bottom: 20px;
+    left: 430px;
+}
+
+.sectionMain5 {
+    height: 15vh;
+    width: 15vw;
+    background-color: #03a8ff;
+    position: absolute;
+    bottom: 20px;
+    right: 60px;
+}
+
+footer {
+    height: 20vh;
+    width: 94vw;
+    background-color: #b27df4;
+    position: absolute;
+    bottom: 0;
+}
+
+.footerNav1 {
+    height: 16vh;
+    width: 40vw;
+    background-color: #c8efad;
+    position: absolute;
+    left: 40px;
+}
+
+.footerNav2 {
+    height: 16vh;
+    width: 40vw;
+    background-color: #c8efad;
+    position: absolute;
+    right: 60px;
+}
