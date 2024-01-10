@@ -8,22 +8,22 @@
 
 // Implemente um programa que solicite o valor total das compras ao usuário e, com base nesse valor, calcule o desconto apropriado, exibindo a mensagem correspondente.
 
-let valorCompra = Number(prompt('Digite o valor da compra'));
+// let valorCompra = Number(prompt('Digite o valor da compra'));
 
-if (valorCompra > 0 && valorCompra <= 100) {
-    console.log(`Sem desconto aplicado, valor total a pagar: R$ ${valorCompra}`);
-} else if (valorCompra >= 100.01 && valorCompra <= 500) {
-    let desconto10 = valorCompra - (valorCompra * 0.1);
-    console.log(`Você recebeu um desconto de 10%, valor total a pagar: R$ ${desconto10}.`)
-} else if (valorCompra >= 500.01 && valorCompra <= 1000) {
-    let desconto15 = valorCompra - (valorCompra * 0.15);
-    console.log(`Você recebeu um desconto de 15%, valor total a pagar: R$ ${desconto15}.`)
-} else if (valorCompra > 1000) {
-    let desconto20 = valorCompra - (valorCompra * 0.2);
-    console.log(`Você recebeu um desconto de 20%, valor total a pagar: R$ ${desconto20}.`)
-} else {
-    console.log('Valor inválido')
-}
+// if (valorCompra > 0 && valorCompra <= 100) {
+//     console.log(`Sem desconto aplicado, valor total a pagar: R$ ${valorCompra}`);
+// } else if (valorCompra >= 100.01 && valorCompra <= 500) {
+//     let desconto10 = valorCompra - (valorCompra * 0.1);
+//     console.log(`Você recebeu um desconto de 10%, valor total a pagar: R$ ${desconto10}.`)
+// } else if (valorCompra >= 500.01 && valorCompra <= 1000) {
+//     let desconto15 = valorCompra - (valorCompra * 0.15);
+//     console.log(`Você recebeu um desconto de 15%, valor total a pagar: R$ ${desconto15}.`)
+// } else if (valorCompra > 1000) {
+//     let desconto20 = valorCompra - (valorCompra * 0.2);
+//     console.log(`Você recebeu um desconto de 20%, valor total a pagar: R$ ${desconto20}.`)
+// } else {
+//     console.log('Valor inválido')
+// }
 
 // Solicitar ao usuário o valor total das compras
 // Ler valorTotalCompras
