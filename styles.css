@@ -44,29 +44,29 @@ main {
 }
 
 .sectionMain3 {
-    height: 15vh;
-    width: 15vw;
+    height: 20vh;
+    width: 20vw;
     background-color: #03a8ff;
     position: absolute;
-    bottom: 20px;
+    bottom: 15px;
     left: 60px;
 }
 
 .sectionMain4 {
-    height: 15vh;
-    width: 15vw;
+    height: 20vh;
+    width: 20vw;
     background-color: #03a8ff;
     position: absolute;
-    bottom: 20px;
-    left: 430px;
+    bottom: 15px;
+    left: 400px;
 }
 
 .sectionMain5 {
-    height: 15vh;
-    width: 15vw;
+    height: 20vh;
+    width: 20vw;
     background-color: #03a8ff;
     position: absolute;
-    bottom: 20px;
+    bottom: 15px;
     right: 60px;
 }
 
